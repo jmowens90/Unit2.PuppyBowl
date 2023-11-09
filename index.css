@@ -1,3 +1,9 @@
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
 section {
     display: flex;
     flex-direction: column;
@@ -7,7 +13,8 @@ section {
     max-width: 300px;
     justify-content: center;
     align-items: center;
-    margin-bottom: 20px;
+    margin: 10px;
+    overflow: hidden;
 }
 
 h2 {
@@ -19,10 +26,13 @@ h3 {
 }
 
 img {
-    max-width: fit-content;
+    max-width: 250px;
+    min-width: 250px;
     max-height: 300px;
+    min-height: 300px;
     padding: 10px;
-    border-radius: 75%;
+    border-radius: 25%;
+    margin-bottom: 10px;
 }
 
 #goBack {
@@ -30,9 +40,14 @@ img {
     width: 100px;
 }
 
+h1 {
+    text-align: center;
+}
+
 form {
     display: flex;
     flex-direction: column;
+    margin: 0 auto;
     border: solid black 2px;
     background-color: gray;
     margin-bottom: 15px;
