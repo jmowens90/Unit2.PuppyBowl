@@ -1,0 +1,21 @@
+section {
+    display: flex;
+    flex-direction: column;
+    border: solid black 2px;
+    border-radius: 10%;
+    background-color: gray;
+    max-width: 300px;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+h2 {
+    text-align: center;
+}
+
+img {
+    max-width: fit-content;
+    max-height: 300px;
+    padding: 10px;
+    border-radius: 75%;
+}
