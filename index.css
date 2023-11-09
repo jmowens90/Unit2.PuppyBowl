@@ -6,10 +6,15 @@ section {
     background-color: gray;
     max-width: 300px;
     justify-content: center;
+    align-items: center;
     margin-bottom: 20px;
 }
 
 h2 {
+    text-align: center;
+}
+
+h3 {
     text-align: center;
 }
 
@@ -18,4 +23,31 @@ img {
     max-height: 300px;
     padding: 10px;
     border-radius: 75%;
+}
+
+#goBack {
+    margin-bottom: 5px;
+    width: 100px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    border: solid black 2px;
+    background-color: gray;
+    margin-bottom: 15px;
+    width: 300px;
+}
+
+label {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 2px;
+}
+
+#submitButton {
+    align-self: center;
+    text-align: center;
+    width: 150px;
+    margin-bottom: 5px;
 }
